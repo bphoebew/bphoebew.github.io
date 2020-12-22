@@ -1,6 +1,10 @@
 body{
   background: #16132d;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 h1{
   font-size: 15px;
   color: white;
