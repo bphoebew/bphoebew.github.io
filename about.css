@@ -33,6 +33,7 @@ h1{
 -moz-transition: all 1s ease;
 -o-transition: all 1s ease;
 transition: all 1s ease;
+z-index: 100;
 }
 button:focus{
   outline: 0;
@@ -112,6 +113,8 @@ h2{
 -o-transition: all 1s ease;
 transition: all 1s ease;
 margin-right: 15%;
+margin-bottom: 0px;
+
 }
 .buttons{
   /* border: 2px solid white; */
@@ -130,7 +133,7 @@ margin-right: 15%;
   justify-content: center;
   position: absolute;
   top: 23%;
-  right: 1%;
+  right: 5%;
 }
 .socials{
   display: flex;
@@ -181,11 +184,98 @@ margin-right: 15%;
   width: 100%;
   height: 100vh;
 }
-#two{
+#two, #three{
   width: 100%;
   height: 100vh;
+  position: relative;
   /* background-color: white; */
 }
 /* img:hover{
   z-index: 2;
 } */
+
+h3{
+  position: absolute;
+  top: 5%;
+  left: 35%;
+  z-index: 2;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 100px;
+s  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6);
+  font-family: sans-serif;
+}
+h4{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  /* text-align: center; */
+  font-size: 33px;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-right: 5%;
+  z-index: 3;
+}
+h5{
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  /* text-align: center; */
+  font-size: 33px;
+    -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  margin-right: 5%;
+  z-index: 3;
+}
+
+.picComp{
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  width: 420px;
+  height: 300px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.rect{
+  width: 420px;
+  height: 300px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  border:2px solid white;
+  background:rgba(0,0,0,0);
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.info{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  width: 400px;
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
