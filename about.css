@@ -204,7 +204,7 @@ h3{
   text-align: center;
   white-space: nowrap;
   font-size: 100px;
-s  color: transparent;
+  color: transparent;
   -webkit-text-stroke: 2px rgba(255, 255, 255, 0.6);
   font-family: sans-serif;
 }
