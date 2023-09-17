@@ -16,7 +16,7 @@ body {
 
 .headText {
   font-family: "Space Mono", monospace;
-  font-size: 3vw;
+  font-size: 2.8rem;
   margin: 0;
 }
 
@@ -407,8 +407,8 @@ section {
 }
 
 .socialBut {
-  width: 5vw;
-  height: 5vw;
+  width: 4.7rem;
+  height: 4.7rem;
   border-radius: 50%;
   background-color: white;
   margin-right: 3vw;
@@ -419,8 +419,8 @@ section {
 .IG,
 .mail,
 .in {
-  width: 3vw;
-  height: 3vw;
+  width: 2.8rem;
+  height: 2.8rem;
 }
 
 .github:hover,
