@@ -1,6 +1,7 @@
 let pseudoCount = 0;
 let hexlabsCount = 0;
 let stemCount = 0;
+let craftCount = 0;
 
 function prevPseudo() {
   if (pseudoCount == 1) {
@@ -77,5 +78,40 @@ function nextSTEM() {
   } else if (stemCount == 2) {
     document.getElementById("stemPic").src = "img/SHEFOUR.png";
     stemCount++;
+  }
+}
+
+function prevCraft() {
+  if (craftCount == 1) {
+    document.getElementById("craftPic").src = "img/bear_embroidery.jpeg";
+    craftCount--;
+  } else if (craftCount == 2) {
+    document.getElementById("craftPic").src = "img/hat_embroidery.jpeg";
+    craftCount--;
+  } else if (craftCount == 3) {
+    document.getElementById("craftPic").src = "img/wood_cut.jpeg";
+    craftCount--;
+  } else if (craftCount == 4) {
+    document.getElementById("craftPic").src = "img/miffy_waterjet.jpg";
+    craftCount--;
+  } else if (craftCount == 4) {
+    document.getElementById("craftPic").src = "img/ceramics.jpeg";
+    craftCount--;
+  }
+}
+
+function nextCraft() {
+  if (craftCount == 0) {
+    document.getElementById("craftPic").src = "img/hat_embroidery.jpeg";
+    craftCount++;
+  } else if (craftCount == 1) {
+    document.getElementById("craftPic").src = "img/wood_cut.jpeg";
+    craftCount++;
+  } else if (craftCount == 2) {
+    document.getElementById("craftPic").src = "img/miffy_waterjet.jpg";
+    craftCount++;
+  } else if (craftCount == 3) {
+    document.getElementById("craftPic").src = "img/ceramics.jpeg";
+    craftCount++;
   }
 }
