@@ -1,0 +1,10 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/crafts": "pages/crafts.js",
+  "/bog": "pages/bog.js",
+  "/hexlabs": "pages/hexlabs.js",
+  "/pseudo": "pages/pseudo.js"
+}

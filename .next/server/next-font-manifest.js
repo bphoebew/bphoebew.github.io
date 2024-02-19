@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{\"/crafts\":[],\"/\":[],\"/pseudo\":[],\"/hexlabs\":[],\"/bog\":[]},\"app\":{},\"appUsingSizeAdjust\":false,\"pagesUsingSizeAdjust\":true}"
