@@ -14,7 +14,8 @@ body {
   margin: 1.5vw;
 }
 
-.headText {
+.headText,
+.headNameText {
   font-family: "Space Mono", monospace;
   font-size: 2.8rem;
   margin: 0;
@@ -570,6 +571,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .headNameText {
+    text-align: center;
   }
 
   .profile {
