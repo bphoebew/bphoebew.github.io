@@ -423,6 +423,7 @@ section {
   border-radius: 50%;
   background-color: white;
   margin-right: 3rem;
+  margin-bottom: 1rem;
   border: 0.2vw solid black;
 }
 
@@ -569,7 +570,7 @@ section {
   .left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
 
