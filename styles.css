@@ -223,7 +223,15 @@ section > * {
   overflow: auto;
   padding-bottom: 1rem;
   padding-right: var(--page-margin);
+
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge Legacy */
 }
+
+.cards-wrapper::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, newer Edge */
+}
+
 .cards-wrapper .card {
   display: grid;
   place-content: center;
